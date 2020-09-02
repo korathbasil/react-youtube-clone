@@ -1,0 +1,45 @@
+.header {
+  width: calc(100% - 20px);
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.header__logoContainer {
+  display: flex;
+  align-items: center;
+}
+.header__MenuIcon {
+  margin: 15px;
+}
+.header__logo {
+  width: 100px;
+  object-fit: contain;
+}
+.header__searchContainer {
+  display: flex;
+  align-items: center;
+}
+.header__searchInput {
+  height: 25px;
+  width: 30vw;
+  border: 1px solid lightgrey;
+}
+.header__searchButtonContainer {
+  text-align: center;
+  height: 25px;
+  width: 60px;
+  border-top: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+.header__accountOptionsContainer {
+  display: flex;
+  align-items: center;
+}
+.header__accountOptionsIcon {
+  margin: 0 15px;
+}
+.header__accountOptionsAvatar {
+  width: 30px;
+  margin: 0 15px;
+}
