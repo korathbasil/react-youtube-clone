@@ -1,13 +1,16 @@
 .sidebarOptions {
-  padding: 5px 0;
+  padding: 10px 0;
   display: flex;
   align-items: center;
 }
 .sidebarOptions:hover {
-  background-color: #999999;
+  background-color: #e0dede;
 }
 .sidebarOptions:active {
   background-color: lightgrey;
+}
+.sidebarOptions:active > .sidebarOptions__icon {
+  color: red;
 }
 .sidebarOptions__icon {
   margin: 0 30px;
